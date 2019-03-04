@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title="Logowanie"
+        body
+
+form(method='GET' action='http://localhost:3000/auth/google')
+    p.login Login:
+        input(type='text' name='login')
+    p.password Password:
+        input(type='text' name='password')
+    input(type='submit' value='Send')
